@@ -1,0 +1,37 @@
+.contact img {
+  height: 50vh;
+  width: 90%;
+}
+
+.contact button:hover {
+  transform: scale(1.02);
+}
+
+.contact button {
+  background-color: #440786c6;
+  color: white;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-top: 1.5rem;
+  border-radius: 40px;
+  background: #ebecf0 !important;
+  box-shadow: 5px 5px 0px #e2e3e6, -5px -5px 0px #f4f5fa !important;
+}
+
+.form-control:focus {
+  transform: scale(1.02);
+}
+
+.form-control {
+  box-shadow: none;
+  border: none !important;
+}
+
+@media(max-width:750px) {
+    .contact-form {
+        margin-bottom: 5rem !important;
+    }
+}

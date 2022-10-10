@@ -1,0 +1,15 @@
+.footer-content {
+    background-color: #011e33;
+    color: #ebecf0;
+    text-align: center;
+}
+
+.footer-icons svg {
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-icons svg:hover {
+    transform: scale(2);
+    cursor: pointer;
+}
