@@ -29,6 +29,10 @@
   width: 50%;
 }
 
+.primary-btn a {
+  text-decoration: none;
+}
+
 .devstack {
   color: black;
   transition: all 0.5s;
@@ -55,7 +59,7 @@
 }
 
 pre {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif !important;
 }
 

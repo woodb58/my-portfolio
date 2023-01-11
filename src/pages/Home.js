@@ -5,6 +5,7 @@ import Carousel from "../components/Carousel";
 import jsPic from "../img/js.svg";
 import developer from "../img/developer.svg";
 import blob from "../img/blob.svg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,12 +17,12 @@ const Home = () => {
         style={{ backgroundImage: `url(${Circles})` }}
       >
         <div>
-          <h1 data-aos="fade-up">Brian</h1>
+          <h1 data-aos="fade-up">Brian Wood</h1>
           <div className="intro-content d-flex justify-content-between">
             <p>
               Full Stack <br /> Web Developer
             </p>
-            <button className="primary-btn font-bold w-50">Get Started</button>
+            <button className="primary-btn font-bold w-50"><Link to="/contact">Get Started</Link></button>
           </div>
         </div>
       </div>
@@ -42,7 +43,7 @@ const Home = () => {
             <div className="neo-box2 p-4 font-bold" data-aos="fade-right">
               <h1>Yes that's right...</h1>
               <br />
-              <p>I am a Javascript Buff...</p>
+              <p>I Love Javascript...</p>
             </div>
           </div>
         </div>
@@ -114,13 +115,12 @@ const Home = () => {
       </div>
 
       <div>
-        <h3 className="font-bold text-center">Who Is Brian?</h3>
         <div
           className="center who-i-am flex-with-center"
           style={{ backgroundImage: `url(${blob})` }}
         >
           <div>
-            <h3>Hi, How Are You</h3>
+            <h3>Hi, I'm Brian</h3>
             <hr />
             <p>
               <pre>
@@ -128,7 +128,7 @@ const Home = () => {
                   {
                     name: "Brian.Wood",
                     from: "Wisconsin",
-                    loves: "Web Development, JS, Making Cool Things",
+                    loves: "Web Development, javaScript, Design"
                   },
                   null,
                   2

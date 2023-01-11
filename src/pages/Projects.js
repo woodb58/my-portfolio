@@ -15,7 +15,7 @@ const Projects = () => {
               <h1 className="font-bold">Projects</h1>
               <p className="font-bold">Projects quote goes here</p>
               <button className="primary-btn font-bold w-50">
-                Get Started
+                <a href="#projects-list">Take a Look</a>
               </button>
             </div>
           </div>
@@ -33,8 +33,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container projects-list">
-        <h3 className="font-bold"> Take a Look at My Projects</h3>
+      <div className="container projects-list" id="projects-list">
+        <h3 className="font-bold">My Projects</h3>
         <hr />
 
         <div className="row">
