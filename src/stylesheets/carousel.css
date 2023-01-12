@@ -30,8 +30,8 @@
   left: 0;
   transform-style: preserve-3d;
   transform-origin: center;
-  /* divide number of images by 360 to get *deg needed for rotation formula. this allows us to have 360° carousel */
-  transform: rotateY(calc(var(--i) * 72deg)) translateZ(400px);
+  /* 360 divided by number of images to get *deg needed for rotation formula. this allows us to have 360° carousel */
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
   transition: all 0.5s;
 }
 

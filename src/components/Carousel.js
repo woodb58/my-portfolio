@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCss3, FaHtml5, FaJsSquare, FaNode, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJsSquare, FaNode, FaReact, FaDatabase } from "react-icons/fa";
 
 const Carousel = () => {
   return (
@@ -19,9 +19,12 @@ const Carousel = () => {
             <FaNode color="#87BF00" />
           </span>
           <span style={{ "--i": 4 }}>
-            <FaHtml5 color="#DD4B25" />
+            <FaDatabase color="#2194DA" />
           </span>
           <span style={{ "--i": 5 }}>
+            <FaHtml5 color="#DD4B25" />
+          </span>
+          <span style={{ "--i": 6 }}>
             <FaCss3 color="#254BDD" />
           </span>
         </div>
